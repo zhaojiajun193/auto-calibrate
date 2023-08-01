@@ -1,7 +1,7 @@
 [Monochromator]
 step = 20
-start_wave_length = 950
-end_wave_length = 1700
+start_wave_length = 400
+end_wave_length = 1100
 raster_1_start = 200
 raster_1_end = 400
 raster_2_start = 400
@@ -10,5 +10,9 @@ raster_3_start = 1000
 raster_3_end = 2200
 
 [Serial]
-com = "COM5"
+com = "COM11"
 baud_rate = 9600
+
+[Camera]
+means_max = 100
+means_min = 50
